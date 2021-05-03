@@ -1,0 +1,148 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+#title {
+  background-color: #ff4c68;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.8rem;
+  line-height: 1.5;
+  color: azure;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
+}
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.title-image {
+  /* -ms-transform: rotate(20deg); */
+  transform: rotate(25deg);
+  width: 60%;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "Montserrat-light", sans-serif;
+  font: size 1.2rem;
+}
+.button {
+  /* padding-top: 20px; */
+  margin: 5% 3% 5% 0;
+}
+.icons {
+  text-align: center;
+}
+.ic:hover {
+  color: crimson;
+  font-size: 41px;
+}
+
+.ic {
+  font-size: 40px;
+  color: red;
+  margin-bottom: 3%;
+}
+#features {
+  padding: 5% 15%;
+  background-color: white;
+}
+#features p {
+  color: #818181;
+}
+.bol {
+  padding: 2rem;
+}
+.icons h3 {
+  font-family: "Montserrat", sans-serif;
+}
+#testimonials {
+  background-color: #ff4c68;
+  text-align: center;
+  color: azure;
+  font-family: "Montserrat", sans-serif;
+}
+#testimonials h2 {
+  line-height: 1.5;
+  font-size: 2.5rem;
+ 
+}
+.pebbles {
+  border-radius: 100%;
+  width: 15%;
+  margin: 3%;
+}
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 5%;
+  text-align: center;
+}
+.press-images {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 8% 15%;
+}
+.pricing-h2 {
+  font-weight: 800;
+  font-size: 3rem;
+  font-family: "Ubuntu", sans-serif;
+  color: aliceblue;
+  letter-spacing: 2px;
+  line-height: 2;
+}
+.pricing-p {
+  font-size: 2rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  color: aliceblue;
+}
+
+#pricing {
+  padding: 5% 10%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5%;
+}
+.butt {
+  margin: 0 10px;
+}
+#footer {
+  background-color: white;
+  text-align: center;
+  padding:2% 5%;
+  color: black;
+  font-size: smaller;
+}
+.footer-icon {
+  font-size: 20px;
+  padding: 2% 1%;
+}
+
+.card {
+  /* padding: 3%; */
+  padding-top: 5%;
+}
+@media (max-width: 990px) {
+  .title-image {
+    transform: rotate(0);
+    width: 50%;
+  }
+  #title {
+    text-align: center;
+  }
+}
